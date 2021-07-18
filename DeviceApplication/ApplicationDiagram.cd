@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DeviceApplication.DeviceRegisterApplication">
+    <Position X="2.75" Y="1" Width="2.5" />
+    <AssociationLine Name="Log" Type="Core.Log.ILog">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.558" Y="0.102" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAgBAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceRegisterApplication.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DeviceRepository" />
+      <Property Name="Log" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="DeviceEntities.Repository.IDeviceRepository" Collapsed="true">
+    <Position X="7" Y="0.75" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Core.Log.ILog" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

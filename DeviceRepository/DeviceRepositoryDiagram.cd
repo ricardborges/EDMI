@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DeviceRepository.DeviceFakeMongoDbRepository">
+    <Position X="0.75" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceFakeMongoDbRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeviceRepository.DeviceFileJsonRepository">
+    <Position X="3.5" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceFileJsonRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeviceRepository.DeviceMemoryRepository">
+    <Position X="6.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceMemoryRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeviceRepository.MockDeviceRepository">
+    <Position X="6.5" Y="6.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABAAAAACBAIAAAAAAAAAAAAAAAAAAAAAAAAAAABAABA=</HashCode>
+      <FileName>MockDeviceRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.GenericRepository.FileJsonGenericRepository&lt;T&gt;">
+    <Position X="3.75" Y="1.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.GenericRepository.MemoryGenericRepository&lt;T&gt;">
+    <Position X="6.5" Y="1.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.GenericRepository.MongoDbFakeGenericRepository&lt;T&gt;">
+    <Position X="1" Y="1.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DeviceEntities.Repository.IDeviceRepository">
+    <Position X="9.25" Y="4.5" Width="2" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Core.GenericRepository.IGenericRepository&lt;T&gt;">
+    <Position X="9.25" Y="1.5" Width="2" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

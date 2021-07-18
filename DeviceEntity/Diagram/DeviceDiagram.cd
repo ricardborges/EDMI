@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DeviceEntities.Base.Device">
+    <Position X="4.25" Y="0.75" Width="2" />
+    <AssociationLine Name="SerialNumber" Type="DeviceEntities.Base.SerialNumber">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.185" Y="0.089" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAEAAACAAQAABAAAAAA=</HashCode>
+      <FileName>Base\Device.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SerialNumber" />
+      <Property Name="State" />
+      <Property Name="Type" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DeviceEntities.Base.SerialNumber" Collapsed="true">
+    <Position X="0.75" Y="1" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAACACAAAAAgAAAAABA=</HashCode>
+      <FileName>Base\SerialNumber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceEntities.Gateway" Collapsed="true">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <AssociationLine Name="Address" Type="DeviceEntities.Base.DeviceAddress">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.318" Y="0.112" Height="0.182" Width="0.954" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Gateway.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Address" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DeviceEntities.Base.DeviceAddress" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAACAAAAAAKAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\DeviceAddress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceEntities.WaterMeter">
+    <Position X="1.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WaterMeter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceEntities.ElectricMeter" Collapsed="true">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ElectricMeter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DeviceEntities.Base.DeviceType">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAIBAAAAAAAA=</HashCode>
+      <FileName>Base\DeviceType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DeviceEntities.Base.DeviceState">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Base\DeviceState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
